@@ -1,0 +1,94 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://metacpan.org/release/Math-Int128
+Upstream-Contact: Salvador Fandino <sfandino@yahoo.com>, Dave Rolsky <autarch@urth.org>
+Upstream-Name: Math-Int128
+
+Files: *
+Copyright: 2007-2015, Salvador Fandiño <sfandino@yahoo.com>
+ 2014-2015, Dave Rolsky <autarch@urth.org>
+License: Artistic or GPL-1+
+
+Files: c_api.h c_api_client/* perl_math_int64.*
+Copyright: 2007-2015, Salvador Fandiño <sfandino@yahoo.com>
+ 2014-2015, Dave Rolsky <autarch@urth.org>
+License: public-domain
+ The authors state their intention to disclaim any intellectual
+ property rights in this work: "This file is in the public domain"
+
+Files: inc/Capture/Tiny.pm
+Copyright: 2009, David Golden
+License: Apache-2.0
+
+Files: inc/Config/AutoConf.pm
+Copyright: 2004-2011, Alberto Simões <ambs@cpan.org>
+ 2004-2011, Jens Rehsack <rehsack@cpan.org>
+License: Artistic or GPL-1+
+
+Files: inc/CreateCAPI.pm
+Copyright: 2012 by Salvador Fandiño <sfandino@yahoo.com>
+License: Artistic or GPL-1+
+
+Files: ppport.h
+Copyright: 2004-2013, Marcus Holland-Moritz <mhx-cpan@gmx.net>
+ 2001, Paul Marquess <pmqs@cpan.org> (Version 2.x)
+ 1999, Kenneth Albanowski <kjahds@kjahds.com> (Version 1.x)
+License: Artistic or GPL-1+
+
+Files: strtoint128.h
+Copyright: 1992, The Regents of the University of California
+License: BSD-3-clause
+
+Files: debian/*
+Copyright: 2019, Florian Schlichting <fsfs@debian.org>
+License: Artistic or GPL-1+
+
+License: Apache-2.0
+ This is free software, licensed under: The Apache License, Version 2.0,
+ January 2004.
+ .
+ On Debian systems, the complete text of the Apache License, Version
+ 2.0, can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
+
+License: BSD-3-clause
+ Copyright (c) The Regents of the University of California.
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.

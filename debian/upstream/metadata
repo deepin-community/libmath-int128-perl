@@ -1,0 +1,8 @@
+---
+Archive: CPAN
+Bug-Database: http://rt.cpan.org/Public/Dist/Display.html?Name=Math-Int128
+Bug-Submit: bug-math-int128@rt.cpan.org
+Contact: Salvador Fandino <sfandino@yahoo.com>, Dave Rolsky <autarch@urth.org>
+Name: Math-Int128
+Repository: https://github.com/salva/p5-Math-Int128.git
+Repository-Browse: https://github.com/salva/p5-Math-Int128

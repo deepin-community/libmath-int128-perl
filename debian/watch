@@ -1,0 +1,2 @@
+version=3
+https://metacpan.org/release/Math-Int128   .*/Math-Int128-v?(\d[\d.-]*)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$

@@ -1,0 +1,17 @@
+libmath-int128-perl (0.22-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:46:02 +0800
+
+libmath-int128-perl (0.22-2) unstable; urgency=medium
+
+  * d/copyright: add missing statements.
+
+ -- Florian Schlichting <fsfs@debian.org>  Wed, 16 Jan 2019 16:41:33 +0100
+
+libmath-int128-perl (0.22-1) unstable; urgency=low
+
+  * Initial release. (Closes: #919401)
+
+ -- Florian Schlichting <fsfs@debian.org>  Tue, 15 Jan 2019 17:16:20 +0100

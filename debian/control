@@ -1,0 +1,26 @@
+Source: libmath-int128-perl
+Section: perl
+Priority: optional
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Florian Schlichting <fsfs@debian.org>
+Build-Depends: debhelper (>= 11),
+ libmath-int64-perl (>= 0.51),
+ perl
+Standards-Version: 4.3.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libmath-int128-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libmath-int128-perl.git
+Homepage: https://metacpan.org/release/Math-Int128
+Testsuite: autopkgtest-pkg-perl
+
+Package: libmath-int128-perl
+Architecture: any
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends},
+ libmath-int64-perl (>= 0.51)
+Description: Perl module to manipulate 128 bits integers
+ Math::Int128 adds support for 128 bit integers, signed and unsigned, to Perl.
+ .
+ The API is comparable to Math::Int64, just s/64/128/g ;-)
+ .
+ Besides that, as object allocation and destruction has been found to be a
+ bottleneck, an alternative set of operations that use their first argument as
+ the output (instead of the return value) is also provided.
